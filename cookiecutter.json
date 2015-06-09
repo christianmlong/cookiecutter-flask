@@ -1,8 +1,10 @@
 {
-	"full_name": "Steven Loria",
-	"email": "sloria1@gmail.com",
-	"github_username": "sloria",
-	"project_name": "My Flask App",
-	"app_name": "myflaskapp",
-	"project_short_description": "A flasky app."
+    "project_name": "My Flask App",
+    "project_short_description": "A flasky app."
+    "full_name": "Christian Long",
+    "email": "christianzlong@gmail.com",
+    "github_username": "christianmlong",
+    "repo_name": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+    "pkg_name": "{{ cookiecutter.repo_name|replace('-', '') }}"
+    "app_name": "{{ cookiecutter.pkg_name }}"
 }
